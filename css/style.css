@@ -1,0 +1,456 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url("./../webfont/DMSans-Bold.eot");
+    src: url("./../webfont/DMSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("./../webfont/DMSans-Bold.woff2") format("woff2"),
+        url("./../webfont/DMSans-Bold.woff") format("woff"),
+        url("./../webfont/DMSans-Bold.svg#DMSans-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("./../webfont/DMSans-Medium.eot");
+    src: url("./../webfont/DMSans-Medium.eot?#iefix") format("embedded-opentype"),
+        url("./../webfont/DMSans-Medium.woff2") format("woff2"),
+        url("./../webfont/DMSans-Medium.woff") format("woff"),
+        url("./../webfont/DMSans-Medium.svg#DMSans-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("./../webfont/DMSans-Regular.eot");
+    src: url("./../webfont/DMSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("./../webfont/DMSans-Regular.woff2") format("woff2"),
+        url("./../webfont/DMSans-Regular.woff") format("woff"),
+        url("./../webfont/DMSans-Regular.svg#DMSans-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "DM Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+    
+}
+
+button {
+    font-family: "DM Sans" !important;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+button.btn {
+    background-color: #2daae9;
+    padding: 0 6px;
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+button.btn a:hover {
+    color: #212529 !important;
+    background-color: #2daae9;
+}
+
+button.btn:hover {
+    color: #212529 !important;
+    background-color: #2daae9;
+}
+
+button.btn a:focus-visible {
+    outline: 0 !important;
+    color: #212529 !important;
+    background-color: #2daae9;
+}
+:focus,
+.focus-visible:focus:not(:focus-visible) {
+    outline: 0;
+   
+}
+
+/* ---------------------header--------------------- */
+header.header {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+header.header img.web-logo {
+    max-width: 180px;
+}
+
+.header nav ul li a {
+    color: #212529;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header nav ul li a:hover {
+    color: #2daae9;
+}
+
+header.header button.search-btn {
+    background-color: #2daae9;
+    padding: 8px 10px;
+    right: 0;
+    top: 0px;
+    border-radius: 4px;
+}
+header.header .nav-bar ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+header.header .nav-bar ul li a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.header .navbar.one .container{
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 9px;
+}
+.header .navbar.one button.btn:active{
+    background-color: #2daae9;
+    border-color: #2daae9;
+}
+/* --------------------sec-blogs------------------ */
+
+section.blogs button.topics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #adb5bd;
+}
+.blogs .p-description a button.btn{
+    font-size: 14px;
+   
+}
+.blogs .p-description img.baner-img {
+    width: 100%;
+    height: 200px;
+}
+.blogs button.topics span img {
+    width: 22px;
+}
+
+.blogs button.topics[aria-expanded="true"] span img {
+    transform: rotate(181deg);
+}
+
+section.blogs .collapse.topics li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+section.blogs .collapse.topics li:hover {
+    background-color: #f8f9fa;
+    padding: 0 0;
+}
+
+.blogs .collapse.topics li a {
+    text-decoration: none;
+    color: #212529;
+    font-size: 16px;
+}
+.blogs .collapse.topics li a:hover {
+    color: #2daae9;
+}
+.blogs .p-description{
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+.blogs .p-description h2 span{
+    color: #2daae9;
+}
+.blogs .p-description p{
+    color: #adb5bd;
+}
+.blogs .p-description img{
+    border-radius: 8px;
+}
+.blogs .crd-items{
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    
+}
+.blogs .accordion-body {
+    background-color: #f8f9fa;
+}
+.blogs button.accordion-button {
+    background-color: #f0f2f4;
+}
+.blogs button.btn.one {
+    background-color: #5bbdee;
+}
+
+.blogs button.btn.two {
+    background-color: #81bf4b;
+}
+
+.blogs button.btn.three {
+    background-color: #fff06e;
+}
+
+.blogs button.btn.four {
+    background-color: #ec8698;
+}
+
+.blogs .accordion-body a.box:hover {
+    background-color: black !important;
+}
+.blogs .structItem {
+    border-bottom: 1px solid #ededed;
+    padding: 0 0 15px;
+}
+
+.structItem:nth-last-child(1){
+    border-bottom: 0px;
+}
+
+.blogs .structItem .struct-icon {
+    width: 50px;
+    margin-right: 8px;
+
+
+}
+
+.blogs .structItem .strcter-title button.btn.one {
+    font-size: 12px;
+}
+.blogs .structItem .strcter-title h3:hover{
+    color: #2daae9;
+}
+.blogs .structItem .strcter-title button.btn.four {
+    font-size: 12px;
+}
+
+.blogs .structItem .struct-icon img {
+    width: 40px;
+    border-radius: 8px;
+}
+
+.blogs .structItem .reply-date img {
+    width: 30px;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.blogs .structItem span {
+    color: #adb5bd;
+    font-size: 12px;
+}
+
+.blogs .structItem .item {
+    flex: 1;
+}
+
+.blogs .structItem .reply {
+    border-right: 1px solid #adb5bd;
+    margin-right: 10px;
+    padding: 0 10px 0 0;
+}
+
+.blogs .structItem .replay-view {
+    width: 200px;
+    margin-left: 15px;
+}
+
+.blogs .normal-threads h2 {
+    border: 1px solid #adb5bd1c;
+    padding: 17px 15px;
+    font-size: 16px;
+    background-color: #adb5bd1c;
+    border-radius: 6px;
+}
+
+.blogs .posts .new-post {
+    border-bottom: 1px solid #ededed;
+    padding: 10px 0;
+}
+
+.blogs .posts .new-post .new-post-icon img {
+    width: 30px;
+    border-radius: 8px;
+    margin: 6px 11px 0 0;
+}
+
+.blogs .posts .new-post .post-date span.p-date {
+    color: #adb5bd;
+}
+.blogs .posts .post-body .post-title a:hover{
+    color: #2daae9 !important;
+}
+/* ------------------single-blogs--------------- */
+section.single.blogs{
+    background-color: #f8f9fa;
+}
+section.single.blogs .question-thread .quesn-person{
+    background-color: #f0f2f4;
+    border-radius: 8px;
+
+}
+section.single.blogs .question-thread .quesn-person p{
+    background-color: #81bf4b;
+    border-radius: 8px;
+}
+section.single.blogs .message-headr {
+    border-bottom: 1px solid #dee2e680;
+}
+.single.blogs .question-thread .message-inner .message-person a{
+    text-decoration: none;
+    color: #2daae9;
+}
+.single.blogs .question-thread .message-inner .message-person {
+    width: 400px;
+    background-color: #dee2e680;
+}
+.single.blogs .question-thread .message-inner .goodxs-said{
+    background-color: #dee2e680;
+    border-left: 2px solid #2daae9;
+    
+}
+.single.blogs .question-thread .message-inner .goodxs-said p.said-name{
+display: flex;
+align-items: center;
+border-bottom: 1px solid black;
+}
+.single.blogs .message-inner .message-person a.user-img img{
+    width: 50px;
+}
+.single.blogs .question-thread .message-inner{
+    background-color: #f0f2f4;
+    border-radius: 8px;
+}
+.single.blogs .message-inner .message-footer a {
+    background-color: #1b1d2133;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 4px;
+}
+.single.blogs .message-inner .message-footer a:hover{
+    color: #2daae9;
+}
+.single.blogs .question-thread .message-reply{
+    background-color: #f0f2f4;
+    border-radius: 8px;
+}
+.single.blogs .question-thread .message-reply .reply-person {
+    width: 400px;
+    background-color: #dee2e680;
+}
+.single.blogs .message-reply .reply-person a{
+    text-decoration: none;
+    color: #2daae9;
+}
+.single.blogs .message-reply .reply-person a.user-img img{
+    width: 50px;
+}
+.single.blogs .normal-threads {
+    background-color: #f0f2f4;
+    border-radius: 8px;
+}
+
+.single.blogs .question-thread .share-sec a.facebook:hover span{
+    color: white;
+}
+
+.single.blogs .question-thread .share-sec{
+    display: flex;
+    align-items: center;
+}
+.single.blogs .question-thread .share-sec a:hover{
+    background-color: #2daae9;
+    border-radius: 8px;
+}
+.single.blogs .question-thread .share-sec a {
+    color: #1b1d2133;
+    padding: 7px 5px 0px;
+}
+.single.blogs .question-thread .share-sec a:hover{
+    color: #fff;
+}
+/* ------------------blog-question--------------- */
+section.blogs.question{
+    background-color: #f8f9fa;
+    
+}
+.blogs.question .question-thread button.btn{
+    font-size: px;
+}
+section.blogs.question .question-body{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 12px 1px #ced4da;
+}
+section.blogs.question .question-body form input,textarea,.form-select {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: 1px solid #ededed;
+}
+.blogs.question .question-body form label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.blogs.question .question-body form label p{
+    font-size: 14px;
+    font-weight: 400;
+}
+/* ------------------login--------------- */
+
+section.login {
+    background-image: url("./../images/login-bg-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.login .main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: -1px -1px 10px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.login .main .row .box {
+    background-color: #2daae9;
+    border-radius: 8px 0 0 8px;
+}
+
+.login .main .row .content h2 {
+    color: #2daae9;
+}
+
+.form-control:focus {
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar one navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="web-logo" src="images/web-logo.png" alt="logov"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                    <div class="d-lg-flex align-items-center">
+                        <form class="d-flex position-relative mb-2 m-lg-0" role="search">
+                            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                            <button class="search-btn border-0 position-absolute" type="submit"><img
+                                    src="images/outline-search.svg" alt="icon"></button>
+                        </form>
+                        <ul class="d-lg-flex align-items-center m-0 p-0 ms-lg-4">
+                            <li class="list-group-item m-0 mb-2 mb-lg-0 me-lg-4">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                            <li class="list-group-item mb-2 mb-lg-0">
+                                <button class="btn ms-0 py-2">
+                                    <a class="nav-link text-white" href="signup.html">Signup</a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav-bar py-2 d-lg-block d-none">
+            <div class="container">
+                <ul class="d-flex align-items-center m-0 p-0">
+                    <li class="ps-0"><a href="#">New posts</a></li>
+                    <li><a href="#">Manufacturers</a></li>
+                    <li><a href="#">What's new</a></li>
+                    <li><a href="#">Search forums</a></li>
+                    <li><a href="#">Members</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="blogs question py-3 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <button class="topics w-100 border-0 fw-semibold mb-2 p-0 bg-transparent" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true"
+                        aria-controls="collapseExample">
+                        <span class="fs-6">TOPICS</span>
+                        <span><img src="images/arrow-down.svg" alt="arrow"></span>
+                    </button>
+                    <div class="collapse topics show" id="collapseExample">
+                        <ul class="m-0 p-0">
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                            <li><a href="#"><img class="me-3" src="images/topic-shape.svg" alt="icon">Tehrapy</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-9">
+                    <div class="question-body p-3 ">
+                        <h2 class="mb-4 fs-3">Ask a public question</h2>
+
+                        <form>
+                            <div class="title mb-3">
+                                <label for="title">Title <p>Be specific and imagine you’re asking a question to another
+                                        person</p></label>
+                                <input type="text" class="d-block w-100"
+                                    placeholder="What's your bug, feature request, or meta-discussion topic? Be specific.">
+                            </div>
+                            <div class="body mb-3">
+                                <label for="body">Body <p>Include all the information someone would need to answer your
+                                        question</p></label>
+                                <textarea name="text-body" class="" cols="30" rows="10"></textarea>
+
+                            </div>
+                            <div class="type mb-3">
+                                <label for="text">Type <p>Be specific and imagine you’re asking a question to another
+                                        person</p></label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="tags mb-3">
+                                <label for="text">Tags <p>Add up to 5 tags to describe what your question is about</p>
+                                </label>
+                                <input type="text"
+                                    placeholder="must include at least one of (bug feature-request discussion support)">
+                            </div>
+                            <div class="submition">
+                                <button class="btn px-3 py-2 ms-0 fw-semibold"><a href="index.html"
+                                        class="text-decoration-none text-white">Submit</a> </button>
+
+
+
+                            </div>
+
+
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
