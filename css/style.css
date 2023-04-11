@@ -67,7 +67,7 @@ button.btn {
     padding: 0 6px;
     margin-left: 5px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 button.btn a:hover {
@@ -374,25 +374,20 @@ border-bottom: 1px solid black;
     border-radius: 8px;
 }
 
-.single.blogs .question-thread .share-sec a.facebook:hover span{
-    color: white;
-}
-
 .single.blogs .question-thread .share-sec{
     display: flex;
     align-items: center;
 }
 .single.blogs .question-thread .share-sec a:hover{
-    background-color: #2daae9;
+    background-color: #3b5998;
     border-radius: 8px;
+    color: #fff;
 }
 .single.blogs .question-thread .share-sec a {
     color: #1b1d2133;
-    padding: 7px 5px 0px;
+    padding: 5px 7px 0px;
 }
-.single.blogs .question-thread .share-sec a:hover{
-    color: #fff;
-}
+
 /* ------------------blog-question--------------- */
 section.blogs.question{
     background-color: #f8f9fa;
@@ -453,4 +448,75 @@ section.login {
 .form-control:focus {
     border-color: #ced4da !important;
     box-shadow: none !important;
+}
+/* ----------------------------fotter-sec---------------------- */
+footer{
+    border-top: 1px solid #adb5bd;
+}
+footer .ftr-logo a img{
+    width: 144px;
+}
+footer .ftr-logo {
+    margin-top: -16px;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #adb5bd;
+}
+footer a:hover {
+ text-decoration: underline;
+}
+footer p{
+    font-size: 12px;
+}
+footer .search-sec input {
+    height: 55px;
+    background-color: #f8f9fa;
+    border: 1px solid #adb5bd;
+    border-radius: 8px;
+}
+footer .search-sec button.btn{
+    padding: 0 10px;
+    font-size: 20px;
+}
+footer .search-sec button {
+    transform: translate(0, -50%);
+    top: 50%;
+    right: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+footer .search-sec button span{
+    line-height: 0;
+}
+footer .social-sec img{
+    width: 22px;
+}
+footer p.text {
+    width: 220px;
+}
+footer .social-sec a span {
+    color: #1b1d2133;
+    padding: 7px 7px 0;
+}
+
+footer .social-sec a span:hover {
+    background-color: #3b5998;
+    color: white;
+    border-radius: 8px;
+}
+footer .social-sec a.whatsapp span:hover {
+    background-color: #25d366;
+}
+footer .social-sec a.twitter span:hover {
+    background-color: #1da1f3;
+}
+footer .social-sec a.email span:hover {
+    background-color: #1da1f3;
 }
