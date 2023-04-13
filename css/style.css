@@ -40,7 +40,6 @@ body {
     font-style: normal;
     font-display: swap;
     font-size: 14px;
-    
 }
 
 button {
@@ -65,7 +64,7 @@ h6 {
 button.btn {
     background-color: #2daae9;
     padding: 0 6px;
-    margin-left: 5px;
+    margin-right: 5px;
     color: white;
     font-size: 12px;
 }
@@ -85,10 +84,10 @@ button.btn a:focus-visible {
     color: #212529 !important;
     background-color: #2daae9;
 }
+
 :focus,
 .focus-visible:focus:not(:focus-visible) {
     outline: 0;
-   
 }
 
 /* ---------------------header--------------------- */
@@ -121,22 +120,27 @@ header.header button.search-btn {
     top: 0px;
     border-radius: 4px;
 }
-header.header .nav-bar ul li{
+
+header.header .nav-bar ul li {
     list-style-type: none;
     padding: 0 10px;
 }
-header.header .nav-bar ul li a{
+
+header.header .nav-bar ul li a {
     text-decoration: none;
     font-weight: 400;
 }
-.header .navbar.one .container{
+
+.header .navbar.one .container {
     border-bottom: 1px solid #ededed;
     padding-bottom: 9px;
 }
-.header .navbar.one button.btn:active{
+
+.header .navbar.one button.btn:active {
     background-color: #2daae9;
     border-color: #2daae9;
 }
+
 /* --------------------sec-blogs------------------ */
 
 section.blogs button.topics {
@@ -145,14 +149,16 @@ section.blogs button.topics {
     align-items: center;
     color: #adb5bd;
 }
-.blogs .p-description a button.btn{
+
+.blogs .p-description a button.btn {
     font-size: 14px;
-   
 }
+
 .blogs .p-description img.baner-img {
     width: 100%;
     height: 200px;
 }
+
 .blogs button.topics span img {
     width: 22px;
 }
@@ -165,6 +171,7 @@ section.blogs .collapse.topics li {
     list-style-type: none;
     margin-bottom: 8px;
 }
+
 section.blogs .collapse.topics li:hover {
     background-color: #f8f9fa;
     padding: 0 0;
@@ -175,33 +182,45 @@ section.blogs .collapse.topics li:hover {
     color: #212529;
     font-size: 16px;
 }
+
 .blogs .collapse.topics li a:hover {
     color: #2daae9;
 }
-.blogs .p-description{
+
+.blogs .p-description {
     background-color: #f8f9fa;
     border-radius: 8px;
 }
-.blogs .p-description h2 span{
+
+.blogs .p-description h2 span {
     color: #2daae9;
 }
-.blogs .p-description p{
+
+.blogs .p-description p {
     color: #adb5bd;
 }
-.blogs .p-description img{
+
+.blogs .p-description img {
     border-radius: 8px;
 }
-.blogs .crd-items{
+
+.blogs .crd-items {
     background-color: #f8f9fa;
     border-radius: 8px;
-    
 }
+
+.blogs .accordion-button {
+    position: inherit !important;
+}
+
 .blogs .accordion-body {
     background-color: #f8f9fa;
 }
+
 .blogs button.accordion-button {
     background-color: #f0f2f4;
 }
+
 .blogs button.btn.one {
     background-color: #5bbdee;
 }
@@ -221,28 +240,32 @@ section.blogs .collapse.topics li:hover {
 .blogs .accordion-body a.box:hover {
     background-color: black !important;
 }
+
 .blogs .structItem {
     border-bottom: 1px solid #ededed;
     padding: 0 0 15px;
 }
 
-.structItem:nth-last-child(1){
-    border-bottom: 0px;
+.blogs .structItem .boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
 }
 
 .blogs .structItem .struct-icon {
     width: 50px;
     margin-right: 8px;
-
-
 }
 
 .blogs .structItem .strcter-title button.btn.one {
     font-size: 12px;
 }
-.blogs .structItem .strcter-title h3:hover{
+
+.blogs .structItem .strcter-title h3:hover {
     color: #2daae9;
 }
+
 .blogs .structItem .strcter-title button.btn.four {
     font-size: 12px;
 }
@@ -300,50 +323,60 @@ section.blogs .collapse.topics li:hover {
 .blogs .posts .new-post .post-date span.p-date {
     color: #adb5bd;
 }
-.blogs .posts .post-body .post-title a:hover{
+
+.blogs .posts .post-body .post-title a:hover {
     color: #2daae9 !important;
 }
+
 /* ------------------single-blogs--------------- */
-section.single.blogs{
+section.single.blogs {
     background-color: #f8f9fa;
 }
-section.single.blogs .question-thread .quesn-person{
+
+section.single.blogs .question-thread .quesn-person {
     background-color: #f0f2f4;
     border-radius: 8px;
-
 }
-section.single.blogs .question-thread .quesn-person p{
+
+section.single.blogs .question-thread .quesn-person p {
     background-color: #81bf4b;
     border-radius: 8px;
 }
+
 section.single.blogs .message-headr {
     border-bottom: 1px solid #dee2e680;
 }
-.single.blogs .question-thread .message-inner .message-person a{
+
+.single.blogs .question-thread .message-inner .message-person a {
     text-decoration: none;
     color: #2daae9;
 }
+
 .single.blogs .question-thread .message-inner .message-person {
     width: 400px;
     background-color: #dee2e680;
 }
-.single.blogs .question-thread .message-inner .goodxs-said{
+
+.single.blogs .question-thread .message-inner .goodxs-said {
     background-color: #dee2e680;
     border-left: 2px solid #2daae9;
-    
 }
-.single.blogs .question-thread .message-inner .goodxs-said p.said-name{
-display: flex;
-align-items: center;
-border-bottom: 1px solid black;
+
+.single.blogs .question-thread .message-inner .goodxs-said p.said-name {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
 }
-.single.blogs .message-inner .message-person a.user-img img{
+
+.single.blogs .message-inner .message-person a.user-img img {
     width: 50px;
 }
-.single.blogs .question-thread .message-inner{
+
+.single.blogs .question-thread .message-inner {
     background-color: #f0f2f4;
     border-radius: 8px;
 }
+
 .single.blogs .message-inner .message-footer a {
     background-color: #1b1d2133;
     text-decoration: none;
@@ -351,71 +384,86 @@ border-bottom: 1px solid black;
     color: black;
     border-radius: 4px;
 }
-.single.blogs .message-inner .message-footer a:hover{
+
+.single.blogs .message-inner .message-footer a:hover {
     color: #2daae9;
 }
-.single.blogs .question-thread .message-reply{
+
+.single.blogs .question-thread .message-reply {
     background-color: #f0f2f4;
     border-radius: 8px;
 }
+
 .single.blogs .question-thread .message-reply .reply-person {
     width: 400px;
     background-color: #dee2e680;
 }
-.single.blogs .message-reply .reply-person a{
+
+.single.blogs .message-reply .reply-person a {
     text-decoration: none;
     color: #2daae9;
 }
-.single.blogs .message-reply .reply-person a.user-img img{
+
+.single.blogs .message-reply .reply-person a.user-img img {
     width: 50px;
 }
+
 .single.blogs .normal-threads {
     background-color: #f0f2f4;
     border-radius: 8px;
 }
 
-.single.blogs .question-thread .share-sec{
+.single.blogs .question-thread .share-sec {
     display: flex;
     align-items: center;
 }
-.single.blogs .question-thread .share-sec a:hover{
+
+.single.blogs .question-thread .share-sec a:hover {
     background-color: #3b5998;
     border-radius: 8px;
     color: #fff;
 }
+
 .single.blogs .question-thread .share-sec a {
     color: #1b1d2133;
     padding: 5px 7px 0px;
 }
 
 /* ------------------blog-question--------------- */
-section.blogs.question{
+section.blogs.question {
     background-color: #f8f9fa;
-    
 }
-.blogs.question .question-thread button.btn{
+
+.blogs.question .question-thread button.btn {
     font-size: px;
 }
-section.blogs.question .question-body{
+
+section.blogs.question .question-body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0px 1px 12px 1px #ced4da;
 }
-section.blogs.question .question-body form input,textarea,.form-select {
+
+section.blogs.question .question-body form input,
+textarea,
+.form-select {
     display: block;
     width: 100%;
     border-radius: 8px;
     padding: 8px 10px;
     border: 1px solid #ededed;
 }
-.blogs.question .question-body form label{
+
+.blogs.question .question-body form label {
     font-size: 16px;
     font-weight: 600;
 }
-.blogs.question .question-body form label p{
+
+.blogs.question .question-body form label p {
     font-size: 14px;
     font-weight: 400;
 }
+
 /* ------------------login--------------- */
 
 section.login {
@@ -449,40 +497,50 @@ section.login {
     border-color: #ced4da !important;
     box-shadow: none !important;
 }
+
 /* ----------------------------fotter-sec---------------------- */
-footer{
+footer {
     border-top: 1px solid #adb5bd;
 }
-footer .ftr-logo a img{
+
+footer .ftr-logo a img {
     width: 144px;
 }
+
 footer .ftr-logo {
     margin-top: -16px;
 }
-footer ul li{
+
+footer ul li {
     list-style-type: none;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     font-size: 12px;
     color: #adb5bd;
 }
+
 footer a:hover {
- text-decoration: underline;
+    text-decoration: underline;
 }
-footer p{
+
+footer p {
     font-size: 12px;
 }
+
 footer .search-sec input {
     height: 55px;
     background-color: #f8f9fa;
     border: 1px solid #adb5bd;
     border-radius: 8px;
 }
-footer .search-sec button.btn{
+
+footer .search-sec button.btn {
     padding: 0 10px;
     font-size: 20px;
 }
+
 footer .search-sec button {
     transform: translate(0, -50%);
     top: 50%;
@@ -492,15 +550,19 @@ footer .search-sec button {
     justify-content: center;
     height: 40px;
 }
-footer .search-sec button span{
+
+footer .search-sec button span {
     line-height: 0;
 }
-footer .social-sec img{
+
+footer .social-sec img {
     width: 22px;
 }
+
 footer p.text {
     width: 220px;
 }
+
 footer .social-sec a span {
     color: #1b1d2133;
     padding: 7px 7px 0;
@@ -511,12 +573,75 @@ footer .social-sec a span:hover {
     color: white;
     border-radius: 8px;
 }
+
 footer .social-sec a.whatsapp span:hover {
     background-color: #25d366;
 }
+
 footer .social-sec a.twitter span:hover {
     background-color: #1da1f3;
 }
+
 footer .social-sec a.email span:hover {
     background-color: #1da1f3;
+}
+
+/* -------------------responsive-sec------------------ */
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 768px) {
+    .blogs .structItem .replay-view {
+        margin-left: 0;
+    }
+
+    .blogs .structItem .reply {
+        border-right: 0px;
+    }
+
+    .blogs .structItem .struct-icon {
+        margin-right: 0;
+    }
+
+    footer .ftr-logo a img {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 639px) {}
+
+@media only screen and (max-width: 576px) {
+    .single.blogs .question-thread .message-inner .message-person {
+        width: 100%;
+    }
+
+    .single.blogs .question-thread .message-reply .reply-person {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    button.btn {
+        margin-bottom: 5px;
+        padding: 0 2px;
+    }
+
+    .blogs .structItem .strcter-title h3 {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .blogs .p-description a button.btn {
+        font-size: 12px;
+    }
+
+    .header nav ul li a {
+        font-size: 12px;
+    }
+
+    .blogs .structItem .struct-icon {
+        width: 45px;
+    }
 }
